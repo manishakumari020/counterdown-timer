@@ -1,0 +1,44 @@
+.countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.show-days-time{
+    border: none;
+    margin: 10px 5px;
+    background-image: linear-gradient(to bottom, #1a6cd7, #f81fcd);
+}
+  
+  .countdown-timer button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .countdown-timer button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .countdown-timer p {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .countdown-timer button {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .countdown-timer button {
+      font-size: 0.7em;
+    }
+  }

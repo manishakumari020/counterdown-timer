@@ -1,0 +1,45 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-form input {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+  }
+  
+  .input-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 195px;
+    height: 60px;
+  }
+  
+  .input-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .input-form p {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .input-form button {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .input-form button {
+      font-size: 0.7em;
+    }
+  }
