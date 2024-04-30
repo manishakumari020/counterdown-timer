@@ -59,7 +59,7 @@ const CountdownTimer = ({ targetDate, onCancel }) => {
         )}
       </div>
       {timeLeft.days > 100 && <p>Selected time is more than 100 days.</p>}
-      {!isTimeOver && <button onClick={handleCancel}>Cancel Countdown</button>}
+      {!isTimeOver && <button onClick={handleCancel}>Cancel Timer</button>}
     </div>
   );
 };
